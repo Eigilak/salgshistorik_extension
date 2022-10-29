@@ -1,6 +1,18 @@
 {
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "requirePragma": false,
-  "arrowParens": "always"
+  "printWidth": 90,
+  "useTabs": false,
+  "arrowParens": "avoid",
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": false,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.json", ".prettierrc.js", ".eslintrc", "eslintrc.js", ".stylelintrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
 }
